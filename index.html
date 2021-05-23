@@ -44,7 +44,7 @@
       enim
       voluptas.
     </p>
-    <a href="#more" class="button">Więcej</a>
+    <a href="#more" class="button menu_button">Więcej</a>
     <img class="intro__illustration" src="landing.png" alt="" />
   </section>
 
@@ -104,25 +104,27 @@
             </div>
 
             <div class="main_tests">
-              <label class="checkbox_container">Bezpłatny
-                <input type="checkbox" onclick="filerTests()" id="filter_1">
-                <span class="checkmark"></span>
-              </label>
-              <label class="checkbox_container">Po polsku
-                <input type="checkbox" onclick="filerTests()" id="filter_2">
-                <span class="checkmark"></span>
-              </label>
-              <label class="checkbox_container">Zawodowy
-                <input type="checkbox" checked="checked" onclick="filerTests()" id="filter_3">
-                <span class="checkmark"></span>
-              </label>
-              <label class="checkbox_container">Osobowości
-                <input type="checkbox" checked="checked" onclick="filerTests()" id="filter_4">
-                <span class="checkmark"></span>
-              </label>
-              <label class="slider_container">Czas
-                <input type="range" min="100" max="350">
-              </label>
+              <div class="filters">
+                <label class="checkbox_container">Bezpłatny
+                  <input type="checkbox" onclick="filerTests()" id="filter_1">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox_container">Po polsku
+                  <input type="checkbox" onclick="filerTests()" id="filter_2">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox_container">Zawodowy
+                  <input type="checkbox" checked="checked" onclick="filerTests()" id="filter_3">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox_container">Osobowości
+                  <input type="checkbox" checked="checked" onclick="filerTests()" id="filter_4">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="slider_container">Czas
+                  <input type="range" min="100" max="350">
+                </label>
+              </div>
 
               <div id="gallery">
                 <ul class="cards">
