@@ -302,11 +302,12 @@ color: white
 /*Test describtion css */
 .desc{
 padding: 1%;
-width: 60%;
+width: 80%;
 }
 
 .test_desc_text{
 padding-top: 0%;
+height: 50%;
 
 }
 
@@ -333,8 +334,9 @@ padding-top: 0%;
 display: flex;
 margin: 0 auto;
 justify-content: center;
-border-radius: 3%;
-width: 60%;
+border-radius: 7%;
+height: 50%;
+width: auto;
 }
 
 
