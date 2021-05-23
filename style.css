@@ -309,20 +309,22 @@ width: 80%;
 .test_desc_text{
 padding-top: 0%;
 max-width: 400px;
+width: 80%;
 
 }
 
 
 .section_test_desc {
 max-width: 400px;
-/* padding-left: 32%;
-padding-right: 32%; */
+padding-left: 16%;
+padding-right: 16%;
    padding-top: 1%;
    background-color: white;
    text-align: left;
 display: flex;
 margin: 0 auto;
 justify-content: center;
+width: 80%;
 
 }
 
