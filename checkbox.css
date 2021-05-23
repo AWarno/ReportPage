@@ -48,7 +48,7 @@
 
 /* When the checkbox is checked, add a blue background */
 .checkbox_container input:checked ~ .checkmark {
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  background: linear-gradient(to bottom left, #3889da 40%, #2e55b3 100%);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
