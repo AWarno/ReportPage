@@ -24,11 +24,12 @@ body {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  font-family: Ariel, Helvetica, sans-serif;
+  font-weight: 400;
   color: #302f2c;
   height: 100%;
   background: rgba(0, 0, 0, 0);
   margin-top: 3em;
+  font-family: 'Quicksand', serif;
 }
 
 .header {
@@ -300,7 +301,8 @@ color: white
 
 /*Test describtion css */
 .desc{
-padding: 1%
+padding: 1%;
+width: 60%;
 }
 
 .test_desc_text{
@@ -332,7 +334,7 @@ display: flex;
 margin: 0 auto;
 justify-content: center;
 border-radius: 3%;
-
+width: 60%;
 }
 
 
