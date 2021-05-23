@@ -1,230 +1,251 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="checkbox.css">
+  <link rel="stylesheet" href="slider.css">
+
+  <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+  <script type="text/javascript" src="test_data.js"></script>
+  <script type="text/javascript" src="slider.js"></script>
 </head>
+
 <body>
 
-<div class="main">
-<div class="navbar">
-   <a href="#section_3">O projekcie</a>
-   <a href="#section_2">Testy</a>
-  <a href="#section_1">Home</a>
-</div>
+  <div class="main">
+    <div class="navbar">
+      <a href="#section_3">O projekcie</a>
+      <a href="#section_2">Testy</a>
+      <a href="#section_1">Home</a>
+    </div>
 
-<a name="section_1">
-<div class="introduction">
-</div>
-</a>
-
-
-<div class="section">
-<!-- Header -->
-<div class="header" data-aos="flip-left">
-  <h1>Wypróbuj testy!</h1>
-  <p>Wybraliśmy i opisaliśmy dla Ciebie testy, które najbardziej pomogą Ci w wyborze przyszłości.</p>
-</div>
-<div>
+    <a name="section_1">
+      <div class="introduction">
+      </div>
+    </a>
 
 
-
-<div style="font-size: 12px; color:white;">
-<div class="row"> 
-  <div class="column column1">
-    <i class="fas fa-tag fa-10x"></i>
-    <p style="width: 50%;"> Dokłany podział na kategorie, żadnych przykrych nieposdzianek po wypełnieniu.<p>
-  </div>
-  <div class="column column1">
-    <i class="fas fa-signal fa-10x"></i>
-    <p style="width: 50%;"> Wady, zalety, sczcegółowy opis<p>
-  </div>
-  <div class="column column1">
-    <i class="fas fa-envelope-open-text fa-10x"></i>
-    <p style="width: 50%;"> Dokłany podział na kategorie, żadnych przykrych nieposdzianek po wypełnieniu.<p>
-  </div>
-</div>
-</div>
+    <div class="section">
+      <!-- Header -->
+      <div class="header" data-aos="flip-left">
+        <h1>Wypróbuj testy!</h1>
+        <p>Wybraliśmy i opisaliśmy dla Ciebie testy, które najbardziej pomogą Ci w wyborze przyszłości.</p>
+      </div>
+      <div>
 
 
 
-<!-- Header -->
-<div class="header section_1" data-aos="zoom-in-up" data-aos-duration="6000">
-  <h1>Zacznij już teraz!</h1>
-  <p>Czego szukasz?</p>
-  <a href="#section_2"><button class="button button1">Interesują mnie testy predyspozycji zawodowych!</button></a>
-  <a href="#section_2"><button class="button button1">Interesują mnie testy osobowości!</button></a>
-  <a href="#section_2"><button class="button button1">Chcę zobaczyć wszystko!</button></a>
-</div>
-
-<!-- Header -->
-<a name="section_2">
-<div class="header">
-  <h1>Testy</h1>
-  <p></p>
-</div>
-
-<div class="filters header">
-<div>
-  <input type="checkbox" id="scales" name="free"
-         checked>
-  <label for="free">Bezpłatne</label>
-</div>
-
-<div>
-  <input type="checkbox" id="horns" name="horns">
-  <label for="horns">Po polsku</label>
-</div>
-
-<div>
-  <input type="range" min="1" max="100" value="50" name="slider">
-  <label for="slider">Maksymalny czas</label>
-</div>
-</div>
+        <div
+          style="font-size: 12px; color:white; background: -webkit-linear-gradient(#EF8D9C, #FFC39E); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+          <div class="row">
+            <div class="column column1">
+              <i class="fas fa-tag fa-10x"></i>
+              <p style="width: 50%;"> Dokłany podział na kategorie, żadnych przykrych nieposdzianek po wypełnieniu.
+              <p>
+            </div>
+            <div class="column column1">
+              <i class="fas fa-signal fa-10x"></i>
+              <p style="width: 50%;"> Wady, zalety, sczcegółowy opis
+              <p>
+            </div>
+            <div class="column column1">
+              <i class="fas fa-envelope-open-text fa-10x"></i>
+              <p style="width: 50%;"> Dokłany podział na kategorie, żadnych przykrych nieposdzianek po wypełnieniu.
+              <p>
+            </div>
+          </div>
+        </div>
 
 
 
+        <!-- Header -->
+        <div class="header section_1" data-aos="zoom-in-up" data-aos-duration="6000">
+          <h1>Zacznij już teraz!</h1>
+          <p>Czego szukasz?</p>
+          <a href="#section_2"><button class="button button1">Interesują mnie testy predyspozycji
+              zawodowych!</button></a>
+          <a href="#section_2"><button class="button button1">Interesują mnie testy osobowości!</button></a>
+          <a href="#section_2"><button class="button button1">Chcę zobaczyć wszystko!</button></a>
+        </div>
 
-<!-- Photo Grid -->
-<div class="row" data-aos="zoom-in-up"> 
+        <!-- Header -->
+        <div data-aos="zoom-in-up" data-aos-duration="6000">
+          <a name="section_2">
+            <div class="header">
+              <h1>Testy</h1>
+              <p></p>
+            </div>
 
+            <div class="main_tests">
+              <label class="checkbox_container">Bezpłatny
+                <input type="checkbox" onclick="filerTests()" id="filter_1">
+                <span class="checkmark"></span>
+              </label>
+              <label class="checkbox_container">Po polsku
+                <input type="checkbox" onclick="filerTests()" id="filter_2">
+                <span class="checkmark"></span>
+              </label>
+              <label class="checkbox_container">Zawodowy
+                <input type="checkbox" checked="checked" onclick="filerTests()" id="filter_3">
+                <span class="checkmark"></span>
+              </label>
+              <label class="checkbox_container">Osobowości
+                <input type="checkbox" checked="checked" onclick="filerTests()" id="filter_4">
+                <span class="checkmark"></span>
+              </label>
+              <label class="slider_container">Czas
+                <input type="range" min="100" max="350">
+              </label>
 
-  <div class="column column1">
-<div class="card" style="width: 18rem;">
-  <div class="tile tile_1"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="./tests/test_desc.html" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-    <div class="card" style="width: 18rem;">
-    <div class="tile tile_2"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="./tests/test_desc.html" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-    <div class="card" style="width: 18rem;">
-    <div class="tile tile_3"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="./tests/test_desc.html" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-  </div>
+              <div id="gallery">
+                <ul class="cards">
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Test 1</h2>
+                        <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                        <a class="btn" href="./tests/test_desc.html">Więcej</a>
 
-
-  <div class="column column1">
-<div class="card" style="width: 18rem;">
-  <div class="tile_1"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-    <div class="card" style="width: 18rem;">
-    <div class="tile_2"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-    <div class="card" style="width: 18rem;">
-    <div class="tile_3"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-  </div>
- 
-  <div class="column column1">
-<div class="card" style="width: 18rem;">
-  <div class="tile tile_1"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-    <div class="card" style="width: 18rem;">
-    <div class="tile tile_2"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-    <div class="card" style="width: 18rem;">
-    <div class="tile tile_3"> </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Więcej</a>
-  </div>
-</div>
-  </div>
-
-</div>
-</a>
-
-
-
-
-<!-- Header -->
-<div class="header section_1" data-aos="zoom-in-up">
-  <h1>BHP testów</h1>
-  <p>Na co uważać? </p>
-  <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
-<button class="button button2"> Więcej </button>
-</div>
-
-<!-- Header -->
-<a name="section_3">
-<div class="header" data-aos="zoom-in-up">
-  <h1>O projekcie</h1>
-  <p>Kim jesteśmy? W czym Ci możemy pomóc?</p>
-  
-
-	<div class="row"> 
-	  <div class="column">
-	    <img class="avatar" src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:200px">
-	    <p style="width: 50%;"> Tiki Taki<p>
-	  </div>
-	  <div class="column">
-	    <img class="avatar" src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:200px">
-	    <p style="width: 50%;"> Huli Nguyen<p>
-	  </div>
-	  <div class="column">
-	    <img class="avatar" src="https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Avatar" style="width:200px">
-	    <p style="width: img_avatar.png50%;"> Mimi turutu<p>
-	  </div>
-	</div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Test 2</h2>
+                        <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                        <a class="btn" href="./tests/test_desc.html">Więcej</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Test 3</h2>
+                        <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                        <a class="btn" href="./tests/test_desc.html">Więcej</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image"><img src="https://picsum.photos/500/300/?image=14"></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Test 4</h2>
+                        <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                        <a class="btn" href="./tests/test_desc.html">Więcej</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Test 5</h2>
+                        <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                        <a class="btn" href="./tests/test_desc.html">Więcej</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Test 6</h2>
+                        <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                        <a class="btn" href="./tests/test_desc.html">Więcej</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Test 7</h2>
+                        <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                        <a class="btn" href="./tests/test_desc.html">Więcej</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
 
 
-</div>
+        <!-- Header -->
+        <div class="header section_1" data-aos="zoom-in-up">
+          <h1>BHP testów</h1>
+          <p>Na co uważać? </p>
+          <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+            type
+            and scrambled it to make a type specimen book. It has</p>
+          <button class="button button2"> Więcej </button>
+        </div>
+
+        <!-- Header -->
+        <a name="section_3">
+          <div class="header" data-aos="zoom-in-up">
+            <h1>O projekcie</h1>
+            <p>Kim jesteśmy? W czym Ci możemy pomóc?</p>
 
 
-<div class="bottom-footer header"><p>@copyrights: Elemele Elemele </p>  </div>
-</a>
-</div>
-<script>
-    AOS.init();
-</script>
+            <div class="row">
+              <div class="column">
+                <img class="avatar"
+                  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  alt="Avatar" style="width:200px">
+                <p style="width: 50%;"> Tiki Taki
+                <p>
+              </div>
+              <div class="column">
+                <img class="avatar"
+                  src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  alt="Avatar" style="width:200px">
+                <p style="width: 50%;"> Huli Nguyen
+                <p>
+              </div>
+              <div class="column">
+                <img class="avatar"
+                  src="https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  alt="Avatar" style="width:200px">
+                <p style="width: img_avatar.png50%;"> Mimi turutu
+                <p>
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <div class="bottom-footer header">
+            <p>@copyrights: Elemele Elemele </p>
+          </div>
+        </a>
+      </div>
+      <script>
+        AOS.init();
+      </script>
 
 </body>
 
