@@ -20,13 +20,13 @@
 }
 
 
-/* body {
+body {
   margin: 0;
   font-family: Ariel, Helvetica, sans-serif;
   color: #302f2c;
   height: 100%;
   background: rgba(0, 0, 0, 0);
-} */
+}
 
 .header {
   text-align: center;
@@ -46,9 +46,14 @@
   cursor: pointer;
   transition-duration: 0.4s;
   box-shadow: 1px 1px 4px grey;
+  display: inline-block;
+  padding: 0.7em 1.2em;
+  font-size: 1rem;
+  border-radius: 3px;
+
 }
 
-.button1 {border-radius: 8px; width: 60%;}
+.button1 {border-radius: 8px; width: 60%; color:white;}
 
 .button2 {border-radius: 8px; width: auto;}
 
