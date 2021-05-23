@@ -27,6 +27,8 @@
     line-height: 0.9em;
     margin-bottom: 30px;
     color: #ec171b;
+    width: 90%;
+    text-align: left;
   }
   
   .intro__subtitle {
