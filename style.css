@@ -21,12 +21,14 @@
 
 
 body {
-  margin: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
   font-family: Ariel, Helvetica, sans-serif;
   color: #302f2c;
   height: 100%;
   background: rgba(0, 0, 0, 0);
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .header {
