@@ -71,7 +71,7 @@
   
     .intro__title {
       grid-area: title;
-      margin: 0;
+      margin: 1em;
       font-weight: 900;
     }
   
@@ -102,11 +102,11 @@
   
   @media (min-width: 60em) {
     .intro {
-      width: 80%;
+      width: 90%;
     }
   
     .intro__title {
-      font-size: 2rem;
+      font-size: 4rem;
       margin: 0;
     }
   
