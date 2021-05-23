@@ -212,7 +212,8 @@ text-align: center;
 display: flex;
 margin: 0 auto;
 justify-content: center;
-width: 90%;
+/* width: 90%; */
+max-width: 800px;
 }
 
 .avatar {
@@ -307,14 +308,15 @@ width: 80%;
 
 .test_desc_text{
 padding-top: 0%;
-height: 50%;
+max-width: 400px;
 
 }
 
 
 .section_test_desc {
-padding-left: 32%;
-padding-right: 32%;
+max-width: 400px;
+/* padding-left: 32%;
+padding-right: 32%; */
    padding-top: 1%;
    background-color: white;
    text-align: left;
