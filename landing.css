@@ -19,18 +19,6 @@
     color: var(--darkGrey);
   }
   
-  /* .button {
-    display: inline-block;
-    padding: 0.7em 1.2em;
-    font-size: 1rem;
-    background-color: var(--pink);
-    color: var(--white);
-    border-radius: 3px;
-  } */
-  
-  /* .button:hover {
-    background-color: #a5285c;
-  } */
   
   .intro__illustration {
     max-width: 100%;
