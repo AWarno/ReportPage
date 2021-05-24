@@ -365,6 +365,12 @@ padding-right: 16%;
 }
 
 
+.main{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  }
+
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .main {
@@ -377,12 +383,6 @@ padding-right: 16%;
   .main {
     width: 100%;
   }
-}
-
-.main{
-display: flex;
-margin: 0 auto;
-justify-content: center;
 }
 
 
