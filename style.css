@@ -30,6 +30,7 @@ body {
   background: rgba(0, 0, 0, 0);
   margin-top: 3em;
   font-family: 'Quicksand', serif;
+  font-size: 100%;
 }
 
 .header {
@@ -248,6 +249,11 @@ max-width: 800px;
   z-index:99;
 }
 
+.balls {
+  position: fixed;
+  width: 100%;
+}
+
 .navbar p {
 float: left;
 color: white
@@ -301,7 +307,7 @@ color: white
 
 .ball{
   opacity: 0.4; 
-  position: absolute; 
+  position: fixed; 
   text-rendering: optimizeLegibility; 
   color:white; 
   background:
