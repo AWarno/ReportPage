@@ -352,6 +352,7 @@ width: 80%;
 }
 
 .desc_img {
+max-width: 400px;
 padding-top: 0%;
 display: flex;
 margin: 0 auto;
@@ -359,6 +360,8 @@ justify-content: center;
 border-radius: 7%;
 height: 50%;
 width: auto;
+padding-left: 16%;
+padding-right: 16%;
 }
 
 
