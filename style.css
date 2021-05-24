@@ -308,7 +308,7 @@ color: white
 }
 
 .ball{
-  opacity: 0.4; 
+  opacity: 0.15; 
   position: fixed; 
   text-rendering: optimizeLegibility; 
   color:white; 
