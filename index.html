@@ -129,10 +129,15 @@
       <div class="header section_1" data-aos="zoom-in-up" data-aos-duration="6000">
         <h1>Zacznij już teraz!</h1>
         <p>Czego szukasz?</p>
-        <a href="#section_2"><button class="button button1">Interesują mnie testy predyspozycji
+        <a href="#section_2"><button class="button button1" id="zawo" onclick="selectTests(this.id)">Interesują mnie
+            testy
+            predyspozycji
             zawodowych!</button></a>
-        <a href="#section_2"><button class="button button1">Interesują mnie testy osobowości!</button></a>
-        <a href="#section_2"><button class="button button1">Chcę zobaczyć wszystko!</button></a>
+        <a href="#section_2"><button class="button button1" id="oso" onclick="selectTests(this.id)">Interesują mnie
+            testy
+            osobowości!</button></a>
+        <a href="#section_2"><button class="button button1" id="all" onclick="selectTests(this.id)">Chcę zobaczyć
+            wszystko!</button></a>
       </div>
 
       <!-- Header -->
@@ -162,9 +167,9 @@
                 <input type="checkbox" checked="checked" onclick="filerTests()" id="filter_4">
                 <span class="checkmark"></span>
               </label>
-              <label class="slider_container">Czas
+              <!-- <label class="slider_container">Czas
                 <input type="range" min="100" max="350">
-              </label>
+              </label> -->
             </div>
 
             <div id="gallery">

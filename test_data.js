@@ -107,3 +107,19 @@ function filerTests() {
 
     document.getElementById('gallery').innerHTML = filtered_tests;
 }
+
+
+function selectTests(clicked_id) {
+    if (clicked_id == 'oso') {
+        document.getElementById('filter_3').checked = false;
+        document.getElementById('filter_4').checked = true;
+    }
+
+    if (clicked_id == 'zawo') {
+        document.getElementById('filter_3').checked = true;
+        document.getElementById('filter_4').checked = false;
+    }
+
+    filerTests();
+
+}
