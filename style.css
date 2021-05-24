@@ -300,9 +300,16 @@ color: white
   display: inline; /* Hidden by default */
 }
 
-.cards{
-
-
+.ball{
+  opacity: 0.4; 
+  position: absolute; 
+  text-rendering: optimizeLegibility; 
+  color:white; 
+  background:
+  -webkit-linear-gradient(#f84f85, #2e55b3); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color:
+  transparent; z-index: -1;
 }
 
 
@@ -363,6 +370,7 @@ width: auto;
     width: 100%;
   }
 }
+
 
 
 
