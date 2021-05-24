@@ -1,6 +1,6 @@
 /* The container */
 .checkbox_container {
-  display: inline-block;
+  display: block;
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;

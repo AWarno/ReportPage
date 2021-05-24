@@ -254,6 +254,8 @@ max-width: 800px;
   width: 100%;
 }
 
+
+
 .navbar p {
 float: left;
 color: white
@@ -366,7 +368,7 @@ padding-right: 16%;
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .main {
-    width: 100%;
+    width: 80%;
     padding: 0;
 
 }
@@ -381,6 +383,13 @@ padding-right: 16%;
 display: flex;
 margin: 0 auto;
 justify-content: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .ball {
+    font-size: 20%;
+  }
 }
 
 
