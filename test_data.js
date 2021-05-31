@@ -1,13 +1,13 @@
 var data = {
-    "test_1": {
-        "free": "1", "time": "20", "lang": "pl", "cat": "1", "img": "https://picsum.photos/500/300/?image=7"
+    "Kompetencjometr": {
+        "free": "1", "time": "20", "lang": "pl", "cat": "1", "img": "images/2.png"
     },
-    "test_2": { "free": "1", "time": "10", "lang": "en", "cat": "0", "img": "https://picsum.photos/500/300/?image=2" },
-    "test_3": { "free": "1", "time": "15", "lang": "pl", "cat": "0", "img": "https://picsum.photos/500/300/?image=5" },
-    "test_4": { "free": "0", "time": "45", "lang": "en", "cat": "0", "img": "https://picsum.photos/500/300/?image=1" },
-    "test_5": { "free": "1", "time": "30", "lang": "pl", "cat": "1", "img": "https://picsum.photos/500/300/?image=3" },
-    "test_6": { "free": "0", "time": "12", "lang": "en", "cat": "1", "img": "https://picsum.photos/500/300/?image=4" },
-    "test_7": { "free": "0", "time": "15", "lang": "en", "cat": "1", "img": "https://picsum.photos/500/300/?image=6" },
+    "Co po maturze?": { "free": "1", "time": "10", "lang": "en", "cat": "0", "img": "images/3.png" },
+    "16 personalities": { "free": "1", "time": "15", "lang": "pl", "cat": "0", "img": "images/4.png" },
+    "Predyspozycje zawodowe": { "free": "0", "time": "45", "lang": "en", "cat": "0", "img": "images/5.png" },
+    "WOPZ": { "free": "1", "time": "30", "lang": "pl", "cat": "1", "img": "images/6.png" },
+    "Test Kariery": { "free": "0", "time": "12", "lang": "en", "cat": "1", "img": "images/7.png" },
+    "Test Hartmana": { "free": "0", "time": "15", "lang": "en", "cat": "1", "img": "images/8.png" },
 };
 
 
@@ -45,12 +45,18 @@ function createCard(test_id) {
             <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout`;
 
 
-    start_card = start_card + data[test_id]["free"] + data[test_id]["cat"] + data[test_id]["lang"] + `</p> 
-    <a class="btn" href="./tests/test_desc.html">Więcej</a>
+    start_card = start_card + data[test_id]["free"] + data[test_id]["cat"] + data[test_id]["lang"] + '</p>';
+    start_card = start_card + '<div style="display: grid; grid-template-columns: auto auto auto;"><p>Lang:' + data[test_id]["lang"] + '</p>';
+    start_card = start_card + '<img style="width:40px;filter: invert(100%);" src="https://static.vecteezy.com/system/resources/previews/001/200/448/non_2x/clock-png.png">' + '<p>' + data[test_id]["time"] + 'min </p>' + '</div>';
+    start_card = start_card + `<a class="btn" href="./tests/test_desc.html">Więcej</a>
         </div>
-        </div>
-    </li>
+        </div><i class="icofont-clock-time"></i>
+    </li><i class="icofont-clock-time"></i>
     `;
+
+
+
+    start_card = start_card += '<i class="icofont-clock-time"></i>'
 
     return start_card;
 

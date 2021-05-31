@@ -18,7 +18,7 @@ body {
 }
 
 .button {
-  background: linear-gradient(to bottom left, #3a6fc5 40%, #2e55b3 100%); /* Green */
+  background: linear-gradient(to bottom left, #6631ff 40%, #2e55b3 100%); /* Green */
   border: none;
   color: white;
   padding: 20px;
@@ -32,7 +32,7 @@ body {
   box-shadow: 1px 1px 4px grey;
   display: inline-block;
   padding: 0.7em 1.2em;
-  border-radius: 3px;
+  border-radius: 25px;
   justify-content: center;
 }
 
@@ -125,7 +125,7 @@ box-shadow: 1px 1px 4px #000000;
    left: 0;
    bottom: 0;
    width: 100%;
-   background: linear-gradient(to bottom left, #3a6fc5 40%, #2e55b3 100%);
+   background: linear-gradient(to bottom left, #6631ff 40%, #2e55b3 100%);
    color: white;
    text-align: center;
 }
@@ -137,7 +137,7 @@ box-shadow: 1px 1px 4px #000000;
    left: 0;
    top: 0;
    width: 100%;
-   background: linear-gradient(to bottom left, #3a6fc5 40%, #2e55b3 100%);
+   background: linear-gradient(to bottom left, #6631ff 40%, #2e55b3 100%);
    color: white;
    text-align: center;
    opacity: 100%;
@@ -185,7 +185,7 @@ max-width: 800px;
 
 .navbar {
   overflow: visible;
-  background: linear-gradient(to bottom left, #3a6fc5 40%, #2e55b3 100%);
+  background: linear-gradient(to bottom left, #6631ff 40%, #2e55b3 100%);
   position: fixed;
   top: 0;
   width: 100%;
