@@ -37,13 +37,13 @@ body {
 }
 
 
-.button1 {border-radius: 8px; width: 60%; color:white;}
+.button1 {width: 60%; color:white;}
 
-.button2 {border-radius: 8px; width: auto;}
+.button2 {width: auto;}
 
 .button:hover {
   background-color: white; /* Green */
-  color:#2d2e2d;
+  color:#2d2e2d;border-radius: 8px; 
   transform: scale(1.05);
 }
 
@@ -162,7 +162,7 @@ display: flex;
 margin: 0 auto;
 justify-content: center;
 width: 90%;
-max-width: 800px;
+max-width: 600px;
 }
 
 .avatar {
@@ -257,10 +257,10 @@ color: white
 
 
 /*Test describtion css */
-.desc{
+/* .desc{
 padding: 1%;
 width: 80%;
-}
+} */
 
 .test_desc_text{
 padding-top: 0%;
@@ -300,26 +300,13 @@ padding-left: 16%;
 padding-right: 16%;
 }
 
-.ball_1{
-  font-size: 20vh;
-}
 
-.ball_2{
-  font-size: 15vh;
-}
+.img_center{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 
-.ball_3{
-  font-size: 30vh;
 }
-
-.ball_4{
-  font-size: 20vh;
-}
-
-.ball_5{
-  font-size: 10vh;
-}
-
 
 .main{
   display: flex;
