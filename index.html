@@ -30,12 +30,33 @@
 
   <script>(function (w, d) { w.CollectId = "60acf24b154f895c94bba423"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async = true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 
-
 </head>
 
 <!-- body -->
 
 <body onload="filerTests()">
+
+
+  <div class="backdrop" style="left: 50%; transform: translateX(-50%);">
+    <div class="row">
+      <div class="popup">
+        <h1>
+          Cześć testerze(rko)!
+        </h1>
+        <div class="row">
+          <p>Dziekujemy za wzięcie udział w testowaniu! Rozejrzyj się po stronie, a kiedy będziesz gotów podziel się
+            swoją
+            opinią z
+            chatbotem! </p>
+        </div>
+        <div class="row">
+          <img src="ux_chatbot.gif">
+        </div>
+        <a href="#" class="button" onclick="closePopup()">Zaczynamy!</a>
+      </div>
+    </div>
+  </div>
+
 
   <div class="navbar">
     <a href="#section_3">O projekcie</a>
@@ -44,7 +65,8 @@
   </div>
 
 
-
+  <div class="overlay">
+  </div>
   <a name="section_1">
   </a>
 
@@ -55,7 +77,8 @@
     <p class="intro__subtitle">
       Aż <b>75%</b> maturzystów nie wie, co chce robić w swoim życiu. Nasza strona pomoże Ci wybrać
       profesjonalny
-      test psychologiczny, który ułatwi Ci w wybór zawodu, kierunku studiów lub po prsotu pozwoli dowiedzieć się czegoś
+      test psychologiczny, który ułatwi Ci w wybór zawodu, kierunku studiów lub po prsotu pozwoli dowiedzieć się
+      czegoś
       o sobie.
       Z nami po przyszłość!
     </p>
@@ -281,9 +304,19 @@
         </div>
       </a>
     </div>
-    <script>
-      AOS.init();
-    </script>
+  </div>
+  <script>
+    AOS.init();
+  </script>
+
+
+  <script>
+    const closePopup = () => {
+      const btnOk = document.querySelector('.btn-ok');
+      document.querySelector('.backdrop').remove();
+      document.querySelector('.overlay').remove();
+    }
+  </script>
 
 </body>
 
