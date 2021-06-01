@@ -308,6 +308,12 @@ padding-right: 16%;
 
 }
 
+.test_link{
+  color:white;
+  font-weight: 900;
+  font-size: larger;
+}
+
 .main{
   display: flex;
   margin: 0 auto;

@@ -1,13 +1,13 @@
 var data = {
     "Kompetencjometr": {
-        "free": "1", "time": "20", "lang": "pl", "cat": "1", "img": "images/2.png"
+        "free": "1", "time": "20", "lang": "pl", "cat": "1", "img": "images/2.png", "link": "http://kompetencjometr.mlodziwlodzi.pl/"
     },
-    "Co po maturze?": { "free": "1", "time": "10", "lang": "en", "cat": "0", "img": "images/3.png" },
-    "16 personalities": { "free": "1", "time": "15", "lang": "pl", "cat": "0", "img": "images/4.png" },
-    "Predyspozycje zawodowe": { "free": "0", "time": "45", "lang": "en", "cat": "0", "img": "images/5.png" },
-    "WOPZ": { "free": "1", "time": "30", "lang": "pl", "cat": "1", "img": "images/6.png" },
-    "Test Kariery": { "free": "0", "time": "12", "lang": "en", "cat": "1", "img": "images/7.png" },
-    "Test Hartmana": { "free": "0", "time": "15", "lang": "en", "cat": "1", "img": "images/8.png" },
+    "Co po maturze?": { "free": "1", "time": "10", "lang": "en", "cat": "0", "img": "images/3.png", "link": "https://copomaturze.lazarski.pl/ " },
+    "16 personalities": { "free": "1", "time": "15", "lang": "pl", "cat": "0", "img": "images/4.png", "link": "https://www.16personalities.com/pl " },
+    "Predyspozycje zawodowe": { "free": "0", "time": "45", "lang": "en", "cat": "0", "img": "images/5.png", "link": "https://predyspozycje-zawodowe.pl/ " },
+    "WOPZ": { "free": "1", "time": "30", "lang": "pl", "cat": "1", "img": "images/6.png", "link": "https://wybierz-zawod.eu/" },
+    "Test Kariery": { "free": "0", "time": "12", "lang": "en", "cat": "1", "img": "images/7.png", "link": "http://testkariery.pl/" },
+    "Test Hartmana": { "free": "0", "time": "15", "lang": "en", "cat": "1", "img": "images/8.png", "link": "https://testhartmana.pl/ " },
 };
 
 
@@ -36,27 +36,31 @@ function createCard(test_id) {
 
     start_card = start_card + `
 
-    <div class="card_content">
-    <h2 class="card_title">`;
-
-    start_card = start_card + test_id;
+    <div class="card_content">`
+    // start_card = start_card + test_id + '</h2>';
+    start_card += '<a class="test_link" href=' + String(data[test_id]["link"]) + '>' + test_id + '</a>';
+    // start_card = '<a href="' + String(data[test_id]["link"]) + '">' + test_id + '</a>';
     start_card = start_card + `
-    </h2>
             <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout`;
 
 
     start_card = start_card + data[test_id]["free"] + data[test_id]["cat"] + data[test_id]["lang"] + '</p>';
-    start_card = start_card + '<div style="display: grid; grid-template-columns: auto auto auto;"><p>Lang:' + data[test_id]["lang"] + '</p>';
-    start_card = start_card + '<img style="width:40px;filter: invert(100%);" src="https://static.vecteezy.com/system/resources/previews/001/200/448/non_2x/clock-png.png">' + '<p>' + data[test_id]["time"] + 'min </p>' + '</div>';
+    start_card = start_card + '<div style="text-align: center; font-weight: 900; display: grid; grid-template-columns: auto auto auto;"><p>jęz: ';
+    start_card = start_card + data[test_id]["lang"] + '</p>';
+    // start_card = start_card + '<img src=' + '"pl.png"' + '>';
+    start_card = start_card + '<p>czas: ' + data[test_id]["time"] + 'min</p>';
+
+    if (data[test_id]["free"] == "1") {
+        start_card = start_card + '<p> $$$ </p>';
+
+    }
+
+    start_card = start_card + '</div>';
     start_card = start_card + `<a class="btn" href="./tests/test_desc.html">Więcej</a>
         </div>
         </div><i class="icofont-clock-time"></i>
     </li><i class="icofont-clock-time"></i>
     `;
-
-
-
-    start_card = start_card += '<i class="icofont-clock-time"></i>'
 
     return start_card;
 
