@@ -311,7 +311,15 @@
 
 
   <script>
+    var opened = sessionStorage.getItem('opened') || 0;
+
+    if (opened == 1) {
+      document.querySelector('.backdrop').remove();
+      document.querySelector('.overlay').remove();
+    }
+
     const closePopup = () => {
+      sessionStorage.setItem('opened', 1);
       const btnOk = document.querySelector('.btn-ok');
       document.querySelector('.backdrop').remove();
       document.querySelector('.overlay').remove();

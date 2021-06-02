@@ -1,3 +1,5 @@
+var opened = 0;
+
 var data = {
     "Kompetencjometr": {
         "free": "1", "time": "20", "lang": "pl", "cat": "1", "img": "images/2.png", "link": "http://kompetencjometr.mlodziwlodzi.pl/", "desc": "Test stylu rozwiązywania konfliktów"
@@ -12,7 +14,7 @@ var data = {
     "Test Belbina": { "free": "0", "time": "-", "lang": "pl", "cat": "0", "img": "images/9.png", "link": "https://www.belbin.pl/", "desc": "Dostępny w dwóch wersjach. (w tym płatnej)", "page": "tests/9.html" },
     "Test Gallupa": { "free": "0", "time": "60", "lang": "en", "cat": "1", "img": "images/9.png", "link": "https://www.gallup.com/cliftonstrengths/en/home.aspx", "desc": "Pomaga zidentyfikowac talenty", "page": "tests/10.html" },
     "Zamek": {
-        "free": "1", "time": "25", "lang": "pl", "cat": "1", "img": "images/9.png", "link": "http://www.e-zamek.pl/  ", "desc": "Test predyspozycji zawodowych", "page": "tests / 11.html"
+        "free": "1", "time": "25", "lang": "pl", "cat": "1", "img": "images/9.png", "link": "http://www.e-zamek.pl/  ", "desc": "Test predyspozycji zawodowych", "page": "tests/11.html"
     },
 };
 
