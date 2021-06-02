@@ -34,6 +34,7 @@ body {
   align-items: center;
   z-index: 100; 
   width:50%;
+  height: 50vh;
   top: 25%;
   bottom: 25%;
   /* width: 50%; left: 50%; transform: translateX(-50%); margin-top: 5rem; padding-bottom: 5rem */
@@ -42,15 +43,45 @@ body {
 
 .popup{
   width:100%;
+  max-height: 100vh;
   border: 3px solid blue;
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
   padding: 1rem;
   text-align: center;
   box-shadow:  0 0 1rem rgba(0, 0, 0, 0.1);
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+.gif{
+}
+
+@media only screen and (max-height:500px) {
+  /* For mobile phones: */
+  .popup {
+    padding: 0rem;
+    width:140%;
+    font-size: 70%;
+
+  }
 }
 
 
+@media only screen and (max-height:500px) {
+  /* For mobile phones: */
+  .backdrop {
+    position: absolute;
+
+  }
+  .gif {
+    display: None;
+  }
+
+  h1{
+    margin-top: 0;
+  }
+}
 
 
 .header {
