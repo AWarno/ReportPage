@@ -8,7 +8,7 @@ var data = {
     "16 personalities": { "free": "1", "time": "12", "lang": "pl", "cat": "0", "img": "images/4.png", "link": "https://www.16personalities.com/pl ", "desc": "Test osobowości (MBTI)", "page": "tests/3.html" },
     "Predyspozycje zawodowe": { "free": "0", "time": "10", "lang": "pl", "cat": "1", "img": "images/5.png", "link": "https://predyspozycje-zawodowe.pl/ ", "desc": "Test predyspozycji zawodowych", "page": "tests/4.html" },
     "WOPZ": { "free": "1", "time": "15", "lang": "pl", "cat": "1", "img": "images/6.png", "link": "https://wybierz-zawod.eu/", "desc": "przeznaczone do diagnozy preferencji zawodowych", "page": "tests/5.html" },
-    "Test Kariery": { "free": "1", "time": "10", "lang": "pl", "cat": "1", "img": "images/7.png", "link": "http://testkariery.pl/", "desc": "Test osobowości (Meyersa-Briggsa) ", "page": "tests/6.html" },
+    "Test Kariery": { "free": "1", "time": "10", "lang": "pl", "cat": "0", "img": "images/7.png", "link": "http://testkariery.pl/", "desc": "Test osobowości (Meyersa-Briggsa) ", "page": "tests/6.html" },
     "Test Hartmana": { "free": "1", "time": "10", "lang": "pl", "cat": "0", "img": "images/8.png", "link": "https://testhartmana.pl/ ", "desc": "Test osobowości (dr Hartman)", "page": "tests/7.html" },
     "Test Thomasa Kilmanna": { "free": "1", "time": "-", "lang": "pl", "cat": "0", "img": "images/9.png", "link": "https://www.cdr.gov.pl/pol/o_poznan/metodyka/rozw_zadan_8_3.pdf", "desc": "Test stylu rozwiązywania konfliktów", "page": "tests/8.html" },
     "Test Belbina": { "free": "0", "time": "-", "lang": "pl", "cat": "0", "img": "images/12.png", "link": "https://www.belbin.pl/", "desc": "Dostępny w dwóch wersjach. (w tym płatnej)", "page": "tests/9.html" },
