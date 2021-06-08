@@ -2,11 +2,11 @@ var opened = 0;
 
 var data = {
     "Kompetencjometr": {
-        "free": "1", "time": "8", "lang": "pl", "cat": "1", "img": "images/2.png", "link": "http://kompetencjometr.mlodziwlodzi.pl/", "desc": "Najbardziej przydatny na wczesnych etapach kariery"
+        "free": "1", "time": "8", "lang": "pl", "cat": "1", "img": "images/2.png", "link": "http://kompetencjometr.mlodziwlodzi.pl/", "desc": "Najbardziej przydatny na wczesnych etapach kariery", "page": "tests/1.html",
     },
-    "Co po maturze?": { "free": "1", "time": "10", "lang": "pl", "cat": "1", "img": "images/3.png", "link": "https://copomaturze.lazarski.pl/ ", "desc": "Wymaga podania danych osobowych" },
-    "16 personalities": { "free": "1", "time": "12", "lang": "pl", "cat": "0", "img": "images/4.png", "link": "https://www.16personalities.com/pl ", "desc": "Test osobowości (MBTI)" },
-    "Predyspozycje zawodowe": { "free": "0", "time": "10", "lang": "pl", "cat": "1", "img": "images/5.png", "link": "https://predyspozycje-zawodowe.pl/ ", "desc": "Test predyspozycji zawodowych" },
+    "Co po maturze?": { "free": "1", "time": "10", "lang": "pl", "cat": "1", "img": "images/3.png", "link": "https://copomaturze.lazarski.pl/ ", "desc": "Wymaga podania danych osobowych", "page": "tests/2.html" },
+    "16 personalities": { "free": "1", "time": "12", "lang": "pl", "cat": "0", "img": "images/4.png", "link": "https://www.16personalities.com/pl ", "desc": "Test osobowości (MBTI)", "page": "tests/3.html" },
+    "Predyspozycje zawodowe": { "free": "0", "time": "10", "lang": "pl", "cat": "1", "img": "images/5.png", "link": "https://predyspozycje-zawodowe.pl/ ", "desc": "Test predyspozycji zawodowych", "page": "tests/4.html" },
     "WOPZ": { "free": "1", "time": "15", "lang": "pl", "cat": "1", "img": "images/6.png", "link": "https://wybierz-zawod.eu/", "desc": "przeznaczone do diagnozy preferencji zawodowych", "page": "tests/5.html" },
     "Test Kariery": { "free": "1", "time": "10", "lang": "pl", "cat": "1", "img": "images/7.png", "link": "http://testkariery.pl/", "desc": "Test osobowości (Meyersa-Briggsa) ", "page": "tests/6.html" },
     "Test Hartmana": { "free": "1", "time": "10", "lang": "pl", "cat": "0", "img": "images/8.png", "link": "https://testhartmana.pl/ ", "desc": "Test osobowości (dr Hartman)", "page": "tests/7.html" },
