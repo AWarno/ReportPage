@@ -5,6 +5,9 @@ The page contains descriptions of psychological tests and a chatbot asking the u
 
 page: https://awarno.github.io/znamipoprzyszlosc-test/#
 
+![](ux_chatbot.gif)
+
+
 
 
 
